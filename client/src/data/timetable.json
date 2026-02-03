@@ -1,0 +1,3093 @@
+{
+  "days": [
+    {
+      "id": "sunday",
+      "name": "الأحد",
+      "nameEn": "Sunday"
+    },
+    {
+      "id": "monday",
+      "name": "الاثنين",
+      "nameEn": "Monday"
+    },
+    {
+      "id": "tuesday",
+      "name": "الثلاثاء",
+      "nameEn": "Tuesday"
+    },
+    {
+      "id": "wednesday",
+      "name": "الأربعاء",
+      "nameEn": "Wednesday"
+    },
+    {
+      "id": "thursday",
+      "name": "الخميس",
+      "nameEn": "Thursday"
+    }
+  ],
+  "periods": [
+    {
+      "id": 1,
+      "time": "09:00 - 09:40",
+      "number": 1
+    },
+    {
+      "id": 2,
+      "time": "09:40 - 10:20",
+      "number": 2
+    },
+    {
+      "id": 3,
+      "time": "10:30 - 11:10",
+      "number": 3
+    },
+    {
+      "id": 4,
+      "time": "11:10 - 11:50",
+      "number": 4
+    },
+    {
+      "id": 5,
+      "time": "12:00 - 12:40",
+      "number": 5
+    },
+    {
+      "id": 6,
+      "time": "12:40 - 01:30",
+      "number": 6
+    }
+  ],
+  "subjects": {
+    "math": {
+      "name": "Math",
+      "nameEn": "Math",
+      "color": "#fce4ec",
+      "textColor": "#880e4f",
+      "borderColor": "#c2185b",
+      "icon": "📚"
+    },
+    "english": {
+      "name": "English OL",
+      "nameEn": "English OL",
+      "color": "#ffebee",
+      "textColor": "#b71c1c",
+      "borderColor": "#c62828",
+      "icon": "🌍"
+    },
+    "arabic": {
+      "name": "عربي",
+      "nameEn": "Arabic",
+      "color": "#e8f5e9",
+      "textColor": "#1b5e20",
+      "borderColor": "#2e7d32",
+      "icon": "📖"
+    },
+    "science": {
+      "name": "Science",
+      "nameEn": "Science",
+      "color": "#e8eaf6",
+      "textColor": "#1a237e",
+      "borderColor": "#303f9f",
+      "icon": "📝"
+    },
+    "social": {
+      "name": "دراسات",
+      "nameEn": "Social",
+      "color": "#f3e5f5",
+      "textColor": "#4a148c",
+      "borderColor": "#6a1b9a",
+      "icon": "🗺️"
+    },
+    "religion": {
+      "name": "دين",
+      "nameEn": "Religion",
+      "color": "#e0f2f1",
+      "textColor": "#004d40",
+      "borderColor": "#00695c",
+      "icon": "📿"
+    },
+    "ict": {
+      "name": "ICT",
+      "nameEn": "ICT",
+      "color": "#eceff1",
+      "textColor": "#37474f",
+      "borderColor": "#455a64",
+      "icon": "💻"
+    },
+    "lang2": {
+      "name": "French/Ger",
+      "nameEn": "French/German",
+      "color": "#e0f7fa",
+      "textColor": "#006064",
+      "borderColor": "#00838f",
+      "icon": "🗣️"
+    },
+    "study": {
+      "name": "مذاكرة",
+      "nameEn": "Study",
+      "color": "#fffde7",
+      "textColor": "#f57f17",
+      "borderColor": "#f9a825",
+      "icon": "✏️"
+    },
+    "discover": {
+      "name": "Discover",
+      "nameEn": "Discover",
+      "color": "#f1f5fe",
+      "textColor": "#1a237e",
+      "borderColor": "#3f51b5",
+      "icon": "🔍"
+    },
+    "empty": {
+      "name": "---",
+      "nameEn": "Empty",
+      "color": "#fafafa",
+      "textColor": "#ccc",
+      "borderColor": "#e0e0e0",
+      "icon": "⏸️"
+    },
+    "رياضيات": {
+      "name": "رياضيات",
+      "nameEn": "رياضيات",
+      "color": "#f3e5f5",
+      "textColor": "#4a148c",
+      "borderColor": "#7b1fa2",
+      "icon": "📖"
+    },
+    "رياضة": {
+      "name": "رياضة",
+      "nameEn": "رياضة",
+      "color": "#e1f5fe",
+      "textColor": "#01579b",
+      "borderColor": "#0288d1",
+      "icon": "🎨"
+    },
+    "علوم": {
+      "name": "علوم",
+      "nameEn": "علوم",
+      "color": "#fce4ec",
+      "textColor": "#880e4f",
+      "borderColor": "#c2185b",
+      "icon": "📚"
+    },
+    "english_al": {
+      "name": "English AL",
+      "nameEn": "English AL",
+      "color": "#f3e5f5",
+      "textColor": "#4a148c",
+      "borderColor": "#7b1fa2",
+      "icon": "📖"
+    },
+    "french": {
+      "name": "French",
+      "nameEn": "French",
+      "color": "#e8eaf6",
+      "textColor": "#1a237e",
+      "borderColor": "#303f9f",
+      "icon": "📝"
+    },
+    "قرآن": {
+      "name": "قرآن",
+      "nameEn": "قرآن",
+      "color": "#e1f5fe",
+      "textColor": "#01579b",
+      "borderColor": "#0288d1",
+      "icon": "🎨"
+    },
+    "لغة_عربية": {
+      "name": "لغة عربية",
+      "nameEn": "لغة عربية",
+      "color": "#fce4ec",
+      "textColor": "#880e4f",
+      "borderColor": "#c2185b",
+      "icon": "📚"
+    },
+    "مقرأة": {
+      "name": "مقرأة",
+      "nameEn": "مقرأة",
+      "color": "#f3e5f5",
+      "textColor": "#4a148c",
+      "borderColor": "#7b1fa2",
+      "icon": "📖"
+    },
+    "german": {
+      "name": "German",
+      "nameEn": "German",
+      "color": "#e8eaf6",
+      "textColor": "#1a237e",
+      "borderColor": "#303f9f",
+      "icon": "📝"
+    },
+    "تربية_دينية": {
+      "name": "تربية دينية",
+      "nameEn": "تربية دينية",
+      "color": "#e1f5fe",
+      "textColor": "#01579b",
+      "borderColor": "#0288d1",
+      "icon": "🎨"
+    }
+  },
+  "rawData": {
+    "الأحد": {
+      "1 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "مذاكرة",
+          "teacher": "مريم"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        }
+      ],
+      "2 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "دين",
+          "teacher": "أمل"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "2 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Math",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "3 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "English AL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "4 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "مذاكرة",
+          "teacher": "إسراء أسامة"
+        }
+      ],
+      "4 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Science",
+          "teacher": "علا"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        }
+      ],
+      "5 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        }
+      ],
+      "5 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Science",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "English AL",
+          "teacher": "إسراء سمير"
+        }
+      ],
+      "6 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "رياضيات",
+          "teacher": "آية"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "French",
+          "teacher": "مريم"
+        }
+      ],
+      "6 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "English AL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "French",
+          "teacher": "مريم"
+        }
+      ],
+      "1 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "رياضيات",
+          "teacher": "آية"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "علوم",
+          "teacher": "حسام"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        }
+      ],
+      "1 إعدادي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Science",
+          "teacher": "حسام"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        }
+      ],
+      "2 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "علوم",
+          "teacher": "حسام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        }
+      ],
+      "2 إعدادي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Science",
+          "teacher": "حسام"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        }
+      ],
+      "3 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "رياضيات",
+          "teacher": "مروة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "مذاكرة",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        }
+      ]
+    },
+    "الاثنين": {
+      "1 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "دين",
+          "teacher": "أمل"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "2 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "2 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Math",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "3 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English AL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دين",
+          "teacher": "أمل"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "4 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "مقرأة",
+          "teacher": ""
+        }
+      ],
+      "4 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English AL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "مقرأة",
+          "teacher": ""
+        }
+      ],
+      "5 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "مذاكرة",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        }
+      ],
+      "5 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Science",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        }
+      ],
+      "6 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "مذاكرة",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "رياضيات",
+          "teacher": "آية"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        }
+      ],
+      "6 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Science",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        }
+      ],
+      "1 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "رياضيات",
+          "teacher": "آية"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "علوم",
+          "teacher": "حسام"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        }
+      ],
+      "1 إعدادي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Science",
+          "teacher": "حسام"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "English AL",
+          "teacher": "روضة"
+        }
+      ],
+      "2 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "لغة عربية",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "رياضيات",
+          "teacher": "مروة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "French",
+          "teacher": "مريم"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "مذاكرة",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "علوم",
+          "teacher": "حسام"
+        }
+      ],
+      "2 إعدادي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "لغة عربية",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Science",
+          "teacher": "حسام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "French",
+          "teacher": "مريم"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        }
+      ],
+      "3 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "علوم",
+          "teacher": "حسام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "French",
+          "teacher": "مريم"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دين",
+          "teacher": "ريهام"
+        }
+      ]
+    },
+    "الثلاثاء": {
+      "1 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "مذاكرة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "2 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "2 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Math",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "German",
+          "teacher": "سارة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "3 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English AL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "4 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "مذاكرة",
+          "teacher": "علا"
+        }
+      ],
+      "4 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Science",
+          "teacher": "علا"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        }
+      ],
+      "5 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        }
+      ],
+      "5 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "English AL",
+          "teacher": "إسراء سمير"
+        }
+      ],
+      "6 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "رياضيات",
+          "teacher": "آية"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        }
+      ],
+      "6 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Science",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        }
+      ],
+      "1 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "علوم",
+          "teacher": "حسام"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دين",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "مذاكرة",
+          "teacher": "سناء"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        }
+      ],
+      "1 إعدادي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دين",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Science",
+          "teacher": "حسام"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        }
+      ],
+      "2 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "دين",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "رياضيات",
+          "teacher": "مروة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "علوم",
+          "teacher": "حسام"
+        }
+      ],
+      "2 إعدادي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "دين",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Science",
+          "teacher": "حسام"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "English AL",
+          "teacher": "روضة"
+        }
+      ],
+      "3 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "علوم",
+          "teacher": "حسام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "رياضيات",
+          "teacher": "مروة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "مذاكرة",
+          "teacher": "مروة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        }
+      ]
+    },
+    "الأربعاء": {
+      "1 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "2 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "2 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "Math",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "3 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "قرآن",
+          "teacher": "أمل"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "4 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        }
+      ],
+      "4 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "Science",
+          "teacher": "علا"
+        }
+      ],
+      "5 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        }
+      ],
+      "5 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Science",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "Math",
+          "teacher": "آية"
+        }
+      ],
+      "6 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "رياضيات",
+          "teacher": "آية"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "French",
+          "teacher": "مريم"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        }
+      ],
+      "6 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Science",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "French",
+          "teacher": "مريم"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        }
+      ],
+      "1 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دين",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "علوم",
+          "teacher": "حسام"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        }
+      ],
+      "1 إعدادي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دين",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        }
+      ],
+      "2 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "مذاكرة",
+          "teacher": "سناء"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "علوم",
+          "teacher": "حسام"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "رياضيات",
+          "teacher": "مروة"
+        }
+      ],
+      "2 إعدادي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "English AL",
+          "teacher": "روضة"
+        }
+      ],
+      "3 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "French",
+          "teacher": "مريم"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "علوم",
+          "teacher": "حسام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "رياضيات",
+          "teacher": "مروة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دين",
+          "teacher": "ريهام"
+        }
+      ]
+    },
+    "الخميس": {
+      "1 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "مذاكرة",
+          "teacher": "مريم"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "دين",
+          "teacher": "أمل"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "2 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دين",
+          "teacher": "أمل"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "2 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English AL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "مريم داوود"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "دين",
+          "teacher": "أمل"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دين",
+          "teacher": "أمل"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "---",
+          "teacher": ""
+        }
+      ],
+      "3 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "أمل"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "مذاكرة",
+          "teacher": "مريم"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Discover",
+          "teacher": "علا"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دين",
+          "teacher": "أمل"
+        }
+      ],
+      "4 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        }
+      ],
+      "4 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English AL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Science",
+          "teacher": "علا"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "Math",
+          "teacher": "آية"
+        }
+      ],
+      "5 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "مذاكرة",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "رياضة",
+          "teacher": "رانيا"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        }
+      ],
+      "5 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Science",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Math",
+          "teacher": "آية"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        }
+      ],
+      "6 ابتدائي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "دين",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "علوم",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "مذاكرة",
+          "teacher": "سناء"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        }
+      ],
+      "6 ابتدائي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "English OL",
+          "teacher": "إسراء سمير"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "عربي",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "تربية دينية",
+          "teacher": "إسراء أسامة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "Science",
+          "teacher": "يمنى"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        }
+      ],
+      "1 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "رياضيات",
+          "teacher": "آية"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "مذاكرة",
+          "teacher": "آية"
+        }
+      ],
+      "1 إعدادي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Science",
+          "teacher": "حسام"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "French/Ger",
+          "teacher": "مريم/سارة"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "English AL",
+          "teacher": "روضة"
+        }
+      ],
+      "2 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "رياضيات",
+          "teacher": "مروة"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دين",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "French",
+          "teacher": "مريم"
+        }
+      ],
+      "2 إعدادي (لغات)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "Science",
+          "teacher": "حسام"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "Math",
+          "teacher": "مروة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "دين",
+          "teacher": "ريهام"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "French",
+          "teacher": "مريم"
+        }
+      ],
+      "3 إعدادي (عربي)": [
+        {
+          "period": "1",
+          "time": "09:00 - 09:40",
+          "subject": "رياضيات",
+          "teacher": "مروة"
+        },
+        {
+          "period": "2",
+          "time": "09:40 - 10:20",
+          "subject": "دراسات",
+          "teacher": "سناء"
+        },
+        {
+          "period": "3",
+          "time": "10:30 - 11:10",
+          "subject": "English OL",
+          "teacher": "روضة"
+        },
+        {
+          "period": "4",
+          "time": "11:10 - 11:50",
+          "subject": "ICT",
+          "teacher": "إيمان"
+        },
+        {
+          "period": "5",
+          "time": "12:00 - 12:40",
+          "subject": "علوم",
+          "teacher": "حسام"
+        },
+        {
+          "period": "6",
+          "time": "12:40 - 01:30",
+          "subject": "عربي",
+          "teacher": "ريهام"
+        }
+      ]
+    }
+  }
+}
